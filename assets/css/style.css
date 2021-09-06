@@ -539,10 +539,21 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+  box-shadow: 10px 6px 20px grey;
+  border-radius: 20px;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
+}
+.portfolio-content{
+    font-weight: 600;
+    padding: 5px;
+    margin: 0px 6px 4px 5px;
+
+}
+.portfolio-content h4,h5{
+  font-weight: 700;
 }
 
 .portfolio .portfolio-wrap::before {
